@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+  <defs>
+    <linearGradient id="favEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#16A34A" />
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F5B544" />
+    </linearGradient>
+  </defs>
+
+  <rect width="40" height="40" rx="10" fill="#0B0F0E" />
+
+  <!-- Eye Outer Contour -->
+  <path d="M 5 20 C 12 8, 28 8, 35 20 C 28 32, 12 32, 5 20 Z" 
+        stroke="url(#favEmerald)" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="#121816" />
+
+  <!-- Stylized Cashew Nut (Pupil) -->
+  <path d="M 17.5 16 C 21 13.5, 25 16, 24.5 19.5 C 24 22.5, 20.5 24.5, 18 23 C 15.8 21.7, 15 18, 17.5 16 Z" 
+        fill="url(#favGold)" />
+
+  <!-- Leaf Sprouting from Top Corner -->
+  <path d="M 29 11 C 33 6, 37 8, 35 13 C 32 14.5, 29 13, 29 11 Z" 
+        fill="url(#favEmerald)" />
+</svg>
